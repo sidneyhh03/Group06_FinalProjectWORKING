@@ -67,17 +67,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+master
     <Content Include="EasyLeetcodeProblem.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="HardLeetCodeProblem.aspx" />
+master
     <Content Include="MediumLeetCode.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+master
     <Compile Include="EasyLeetcodeProblem.aspx.cs">
       <DependentUpon>EasyLeetcodeProblem.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="EasyLeetcodeProblem.aspx.designer.cs">
       <DependentUpon>EasyLeetcodeProblem.aspx</DependentUpon>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HardLeetCodeProblem.aspx.cs">
+      <DependentUpon>HardLeetCodeProblem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HardLeetCodeProblem.aspx.designer.cs">
+      <DependentUpon>HardLeetCodeProblem.aspx</DependentUpon>
+master
     </Compile>
     <Compile Include="MediumLeetCode.aspx.cs">
       <DependentUpon>MediumLeetCode.aspx</DependentUpon>
